@@ -1,94 +1,95 @@
 /* Estilos para o corpo da página */
-body, h1, h2, p, section ,form, label, main, textarea, img{
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-    margin-left: auto; 
-    margin-right: auto;
+body, h1, h2, p, section, form, label, main, textarea, img {
+    font-family: Arial, sans-serif; /* Define a fonte para vários elementos */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimentos padrão */
+    max-width: 100%; /* Garante que os elementos não ultrapassem 100% da largura do contêiner */
+    margin-left: auto; /* Centraliza o elemento horizontalmente no contêiner */
+    margin-right: auto; /* Centraliza o elemento horizontalmente no contêiner */
 }
+
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
+    font-family: 'Arial', sans-serif; /* Define a fonte principal para o corpo do documento */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimentos padrão */
+    background-color: #f2f2f2; /* Define a cor de fundo do corpo */
 }
 
 header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto no cabeçalho */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+    padding: 20px 0; /* Adiciona espaçamento interno ao cabeçalho */
 }
 
 header img {
-    max-width: 35%;
-    height: auto;
+    max-width: 35%; /* Limita a largura máxima da imagem no cabeçalho */
+    height: auto; /* Mantém a proporção da imagem */
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    list-style: none; /* Remove os marcadores de lista dos itens do menu */
+    padding: 0; /* Remove o preenchimento padrão do menu */
+    margin: 0; /* Remove as margens padrão do menu */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: inline; /* Exibe os itens de menu em linha */
+    margin-right: 20px; /* Adiciona espaçamento entre os itens do menu */
 }
 
 nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
+    text-decoration: none; /* Remove a decoração de texto sublinhado nos links */
+    color: white; /* Cor do texto nos links */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    font-size: 16px; /* Define o tamanho da fonte nos links */
 }
 
 nav a:hover {
-    color: #ffcc00; /* Cor ao passar o mouse */
+    color: #ffcc00; /* Cor ao passar o mouse sobre os links */
 }
 
 main {
-    text-align: center;
-    margin: 20px;
+    text-align: center; /* Centraliza o conteúdo principal */
+    margin: 20px; /* Adiciona espaçamento externo ao conteúdo principal */
 }
 
 h2 {
-    color: #333;
+    color: #333; /* Cor do texto do título h2 */
 }
 
 table {
-    width: 65%;
-    margin: 0 auto;
-    border-collapse: collapse;
-    margin-top: 20px;
+    width: 65%; /* Largura da tabela */
+    margin: 0 auto; /* Centraliza a tabela no contêiner */
+    border-collapse: collapse; /* Remove a separação entre as bordas das células */
+    margin-top: 20px; /* Adiciona espaçamento superior à tabela */
 }
 
 thead {
-    background-color: #333;
-    color: white;
+    background-color: #333; /* Cor de fundo do cabeçalho da tabela */
+    color: white; /* Cor do texto no cabeçalho da tabela */
 }
 
 th, td {
-    padding: 10px;
-    border: 1px solid #000000;
-    text-align: center;
+    padding: 20px; /* Adiciona preenchimento interno às células da tabela */
+    border: 1px solid #000000; /* Adiciona bordas às células da tabela */
+    text-align: center; /* Centraliza o texto nas células da tabela */
 }
 
-th{
-    background-color: #333;
+th {
+    background-color: #333; /* Cor de fundo do cabeçalho da tabela */
 }
 
 tbody img {
-    max-width: 25%;
+    max-width: 30%; /* Limita a largura máxima das imagens na tabela */
 }
 
 footer {
-    margin: 10px;
-    background-color: #000000; 
-    color: #fff;
-    padding: 2px; 
-    text-align: center;      
-    font-size: 15px;  
+    margin: 10px; /* Adiciona espaçamento externo ao rodapé */
+    background-color: #000000; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    padding: 2px; /* Adiciona preenchimento interno ao rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+    font-size: 15px; /* Tamanho da fonte no rodapé */
 }
 
